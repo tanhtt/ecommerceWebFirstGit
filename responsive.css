@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @media (max-width: 799px) {
     .section-p1 {
         padding: 40px 40px;
@@ -112,7 +113,7 @@
     h2 {
         font-size: 32px;
     }
-    
+
     #hero {
         padding: 0 20px;
         background-position: 55%;
@@ -176,6 +177,26 @@
     }
 
     #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    /* Blog Page  */
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-box .blog-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-box .blog-details {
         width: 100%;
     }
 }

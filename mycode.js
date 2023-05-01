@@ -2,14 +2,14 @@ const bar = document.getElementById("bar");
 const nav = document.getElementById("navbar");
 const close = document.getElementById("close");
 
-if (bar){
+if (bar) {
     bar.addEventListener('click', () => {
         navbar.classList.add("active");
     })
 }
 
-if (close){
+if (close) {
     close.addEventListener('click', () => {
         navbar.classList.remove("active");
-    }) 
+    })
 }
